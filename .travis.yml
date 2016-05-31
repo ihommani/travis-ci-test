@@ -6,3 +6,4 @@ before_script:
   - mvn -version
   - ls ~/.m2
   - cat ~/.m2/settings.xml
+  - echo "@@@@@@" >> ~/.m2/settings.xml
