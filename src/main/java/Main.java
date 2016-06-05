@@ -1,4 +1,5 @@
-import java.util.Collections;
+import com.google.common.collect.Lists;
+
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ public class Main {
 
 
     private static String sayHello() {
-        List<String> hellos = Collections.emptyList();
+        List<String> hellos = Lists.newArrayList();
         hellos.add("Hello");
         hellos.add("Hello");
         hellos.add("Hello");
